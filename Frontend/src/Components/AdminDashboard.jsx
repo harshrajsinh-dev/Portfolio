@@ -16,7 +16,7 @@ export default function AdminDashboard() {
 
   const fetchContacts = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/contact");
+      const res = await fetch("https://portfolio-rh2g.onrender.com/api/contact/");
       const data = await res.json();
       setContacts(data);
     } catch (err) {

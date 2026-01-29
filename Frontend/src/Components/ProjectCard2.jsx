@@ -9,7 +9,7 @@ const ProjectCardGSAP = () => {
   const projects = [
     {
       img: assets.project_img1,
-      link: "https://harshrajsinh-two.vercel.app/",
+      link: "https://harshrajsinh-portfolio.vercel.app/",
     },
     {
       img: assets.project_img2,
