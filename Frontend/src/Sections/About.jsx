@@ -1,6 +1,6 @@
 import React from "react"
 import { assets } from "../assets/assets"
-import Skill from "../Components/skill"
+import Skill from "../Components/Skill"
 import WorkStack from "../Components/WorkStack"
 
 export default function About() {
