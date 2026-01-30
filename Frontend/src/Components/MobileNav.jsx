@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
+import { assets } from "../assets/assets";
 
 const MobileNav = () => {
   const tabs = ["Home", "Projects", "About", "Contact", "Resume"];
@@ -8,7 +9,7 @@ const MobileNav = () => {
 
   const handleResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf"; 
+    link.href = assets.resume; 
     link.download = "Harshrajsinhresume.pdf"; 
     document.body.appendChild(link);
     link.click();
